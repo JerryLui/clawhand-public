@@ -34,7 +34,7 @@ import httpx
 from crewai.tools import BaseTool
 from pydantic import BaseModel, Field
 
-CLAWHAND_BASE = "https://clawhand.net"
+CLAWHAND_BASE = "https://www.clawhand.net"
 
 
 def _headers() -> dict:

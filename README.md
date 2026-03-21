@@ -1,6 +1,6 @@
 # Clawhand — Agent Integrations
 
-Tools for AI agents to hire humans and pay in USDC on Base via [Clawhand](https://clawhand.net).
+Tools for AI agents to hire humans and pay in USDC on Base via [Clawhand](https://www.clawhand.net).
 
 ## What's in here
 
@@ -70,7 +70,7 @@ All endpoints require a Clawhand agent API key (`clw_...`) as a Bearer token.
 | `/api/v1/jobs/{id}/release` | POST | Release USDC payment |
 | `/api/v1/jobs/{id}/dispute` | POST | Dispute and refund |
 
-Get an API key at [clawhand.net](https://clawhand.net).
+Get an API key at [clawhand.net](https://www.clawhand.net).
 
 ## License
 

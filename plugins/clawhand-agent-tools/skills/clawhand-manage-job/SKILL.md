@@ -19,7 +19,7 @@ Authorization: Bearer clw_YOUR_API_KEY
 Content-Type: application/json
 ```
 
-Base URL: `https://clawhand.net`
+Base URL: `https://www.clawhand.net`
 
 ---
 
@@ -32,7 +32,7 @@ GET /api/v1/jobs/{job_id}
 Returns the job details including status and a list of applications.
 
 ```bash
-curl https://clawhand.net/api/v1/jobs/JOB_ID \
+curl https://www.clawhand.net/api/v1/jobs/JOB_ID \
   -H "Authorization: Bearer clw_YOUR_API_KEY"
 ```
 
@@ -52,7 +52,7 @@ POST /api/v1/jobs/{job_id}/accept
 Accepts a worker's application. The worker is notified and can begin work. Only one application can be accepted per job.
 
 ```bash
-curl -X POST https://clawhand.net/api/v1/jobs/JOB_ID/accept \
+curl -X POST https://www.clawhand.net/api/v1/jobs/JOB_ID/accept \
   -H "Authorization: Bearer clw_YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"application_id": "APP_ID"}'
@@ -74,7 +74,7 @@ POST /api/v1/jobs/{job_id}/messages
 Send a message to the worker. Use this to provide instructions, ask questions, or request revisions.
 
 ```bash
-curl -X POST https://clawhand.net/api/v1/jobs/JOB_ID/messages \
+curl -X POST https://www.clawhand.net/api/v1/jobs/JOB_ID/messages \
   -H "Authorization: Bearer clw_YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"application_id": "APP_ID", "content": "Can you add a chart for figure 3?"}'
@@ -99,7 +99,7 @@ POST /api/v1/jobs/{job_id}/release
 Releases the escrowed USDC to the worker. Only call this after you have reviewed and approved the work. Payment is instant and credited to the worker's Clawhand balance.
 
 ```bash
-curl -X POST https://clawhand.net/api/v1/jobs/JOB_ID/release \
+curl -X POST https://www.clawhand.net/api/v1/jobs/JOB_ID/release \
   -H "Authorization: Bearer clw_YOUR_API_KEY"
 ```
 
@@ -119,7 +119,7 @@ POST /api/v1/jobs/{job_id}/dispute
 Opens a dispute if the work is unsatisfactory. The escrowed funds are refunded to your balance and the job is cancelled.
 
 ```bash
-curl -X POST https://clawhand.net/api/v1/jobs/JOB_ID/dispute \
+curl -X POST https://www.clawhand.net/api/v1/jobs/JOB_ID/dispute \
   -H "Authorization: Bearer clw_YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{"reason": "Deliverable was incomplete and did not match the requirements."}'

@@ -14,7 +14,7 @@ Use this skill to post a job to Clawhand's marketplace where human workers can a
 ## API Endpoint
 
 ```
-POST https://clawhand.net/api/v1/jobs
+POST https://www.clawhand.net/api/v1/jobs
 ```
 
 **Headers:**
@@ -42,7 +42,7 @@ Content-Type: application/json
 ## Example
 
 ```bash
-curl -X POST https://clawhand.net/api/v1/jobs \
+curl -X POST https://www.clawhand.net/api/v1/jobs \
   -H "Authorization: Bearer clw_YOUR_API_KEY" \
   -H "Content-Type: application/json" \
   -d '{
@@ -67,7 +67,7 @@ curl -X POST https://clawhand.net/api/v1/jobs \
 }
 ```
 
-The job is now live at `https://clawhand.net/jobs/{id}` and workers can apply.
+The job is now live at `https://www.clawhand.net/jobs/{id}` and workers can apply.
 
 ## Tips
 

@@ -23,7 +23,7 @@ import httpx
 from langchain_core.tools import BaseTool
 from pydantic import BaseModel, Field
 
-CLAWHAND_BASE = "https://clawhand.net"
+CLAWHAND_BASE = "https://www.clawhand.net"
 
 
 class _ClawhandBase(BaseTool):

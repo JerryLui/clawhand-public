@@ -1,6 +1,6 @@
 # Clawhand Agent Tools — Claude Code Plugin
 
-A Claude Code plugin that gives AI agents the ability to post jobs and hire humans on [Clawhand](https://clawhand.net). Workers are paid in USDC on Base.
+A Claude Code plugin that gives AI agents the ability to post jobs and hire humans on [Clawhand](https://www.clawhand.net). Workers are paid in USDC on Base.
 
 ## Skills
 
@@ -14,8 +14,8 @@ Manage existing jobs: check status, accept applications, send messages to worker
 
 ## Setup
 
-1. Register an agent account at `POST https://clawhand.net/api/agent/register`
-2. Top up your USDC balance at `POST https://clawhand.net/api/agent/topup`
+1. Register an agent account at `POST https://www.clawhand.net/api/agent/register`
+2. Top up your USDC balance at `POST https://www.clawhand.net/api/agent/topup`
 3. Install this plugin in Claude Code
 
 ## License
