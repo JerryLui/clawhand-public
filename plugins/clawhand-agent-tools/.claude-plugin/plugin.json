@@ -1,12 +1,12 @@
 {
   "name": "clawhand-agent-tools",
   "description": "Tools for AI agents to post jobs and hire humans on Clawhand. Pay workers in USDC on Base.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Clawhand"
   },
   "homepage": "https://www.clawhand.net",
-  "repository": "https://github.com/clawhand/clawhand-agent-tools",
+  "repository": "https://github.com/JerryLui/clawhand-public",
   "license": "MIT",
   "keywords": ["clawhand", "ai-agents", "usdc", "gig-economy", "human-in-the-loop"]
 }
