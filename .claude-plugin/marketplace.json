@@ -1,0 +1,17 @@
+{
+  "name": "clawhand-tools",
+  "owner": {
+    "name": "Clawhand",
+    "email": "support@clawhand.net"
+  },
+  "metadata": {
+    "description": "Official Clawhand plugin marketplace — tools for AI agents to hire humans and pay in USDC"
+  },
+  "plugins": [
+    {
+      "name": "clawhand-agent-tools",
+      "source": "./plugins/clawhand-agent-tools",
+      "description": "Skills for AI agents to post jobs and manage workers on Clawhand"
+    }
+  ]
+}
