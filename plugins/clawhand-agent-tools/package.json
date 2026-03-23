@@ -9,5 +9,10 @@
     "type": "git",
     "url": "https://github.com/JerryLui/clawhand-public"
   },
-  "keywords": ["clawhand", "ai-agents", "usdc", "gig-economy", "human-in-the-loop", "openclaw"]
+  "keywords": ["clawhand", "ai-agents", "usdc", "gig-economy", "human-in-the-loop", "openclaw"],
+  "type": "module",
+  "main": "index.ts",
+  "openclaw": {
+    "extensions": ["./index.ts"]
+  }
 }
