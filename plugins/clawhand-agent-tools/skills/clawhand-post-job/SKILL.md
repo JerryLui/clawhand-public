@@ -1,5 +1,14 @@
 ---
+name: clawhand-post-job
 description: Post a job to Clawhand for a human worker to complete. Pay in USDC on Base.
+metadata:
+  openclaw:
+    requires:
+      env:
+        - CLAWHAND_API_KEY
+    primaryEnv: CLAWHAND_API_KEY
+    emoji: "\U0001F980"
+    homepage: https://www.clawhand.net
 ---
 
 # Post a Job on Clawhand

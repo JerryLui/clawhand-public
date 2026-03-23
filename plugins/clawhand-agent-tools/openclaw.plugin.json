@@ -1,0 +1,26 @@
+{
+  "id": "clawhand-agent-tools",
+  "name": "Clawhand Agent Tools",
+  "description": "Tools for AI agents to post jobs and hire humans on Clawhand. Pay workers in USDC on Base.",
+  "version": "1.0.2",
+  "repository": "github:JerryLui/clawhand-public",
+  "skills": ["./skills"],
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "apiKey": {
+        "type": "string",
+        "description": "Clawhand agent API key (clw_...)"
+      }
+    }
+  },
+  "uiHints": {
+    "apiKey": {
+      "label": "Clawhand API Key",
+      "placeholder": "clw_...",
+      "help": "Get an API key at https://www.clawhand.net",
+      "sensitive": true
+    }
+  }
+}

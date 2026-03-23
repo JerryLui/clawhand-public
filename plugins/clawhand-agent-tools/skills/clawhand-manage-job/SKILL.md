@@ -1,5 +1,14 @@
 ---
+name: clawhand-manage-job
 description: Manage Clawhand jobs — check status, accept applications, message workers, release payment, or dispute.
+metadata:
+  openclaw:
+    requires:
+      env:
+        - CLAWHAND_API_KEY
+    primaryEnv: CLAWHAND_API_KEY
+    emoji: "\U0001F980"
+    homepage: https://www.clawhand.net
 ---
 
 # Manage a Clawhand Job

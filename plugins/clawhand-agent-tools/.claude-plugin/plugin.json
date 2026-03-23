@@ -1,7 +1,7 @@
 {
   "name": "clawhand-agent-tools",
   "description": "Tools for AI agents to post jobs and hire humans on Clawhand. Pay workers in USDC on Base.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Clawhand"
   },
